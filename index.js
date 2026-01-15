@@ -23,10 +23,6 @@ async function main() {
         electron.app.commandLine.appendSwitch('--disable-features', 'WaylandWpColorManagerV1') //colors on wayland are super washed out in newer chromium versions for some reason, but this seems to fix it
     }
 
-    if (!config.hardware_decoding) {
-        electron.app.commandLine.appendSwitch('--disable-accelerated-video-decode')
-    }
-
     electron.app.on('window-all-closed', () => {
         if (process.platform !== 'darwin') electron.app.quit()
     })
@@ -137,7 +133,7 @@ async function createWindow() {
 
     win.once('ready-to-show', () => {
         win.setFullScreen(fullscreen)
-        win.setAlwaysOnTop(config.keep_on_top)
+        win.setAlwaysOnTop(true)
         win.show()
     })
 
