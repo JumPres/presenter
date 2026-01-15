@@ -65,16 +65,16 @@ async function main(electron) {
         }
     })
 
-    await createWindow()
+    await createWindow(electron)
 
     setupUserstylesWatcher()
 
     electron.app.on('activate', () => {
-        if (electron.BrowserWindow.getAllWindows().length === 0) createWindow()
+        if (electron.BrowserWindow.getAllWindows().length === 0) createWindow(electron)
     })
 }
 
-async function createWindow() {
+async function createWindow(electron) {
     let fullscreen = true; // JumPres MUST start in fullscreen to look normal on official hardware
 
     win = new electron.BrowserWindow({

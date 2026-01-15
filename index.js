@@ -3,9 +3,9 @@ const electron = require('electron');
 const express = require('express');
 const expressWs = require('@wll8/express-ws');
 const path = require('node:path');
-const fs = require('node:fs');
+// const fs = require('node:fs');
 
-const package = require('./package.json');
+// const package = require('./package.json');
 const electronInit = require('./electron-init.js');
 
 const {app} = expressWs(express());
