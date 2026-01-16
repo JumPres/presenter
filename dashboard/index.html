@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="UTF-8">
+        <title>JumPres Dashboard</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/root.css"/>
+        <link rel="stylesheet" href="css/alerts.css"/>
+        <!-- Scripts -->
+        <script src="js/index.js"></script>
+        <script src="js/alerts.js"></script>
+        <!-- External Resources -->
+        <link rel="stylesheet" href="icons/breeze-icons.css" />
+    </head>
+    <body class="color-scheme-dark">
+        <div class="alerts"></div>
+        <div class="main">
+            <aside class="sidebar">
+                <nav>
+                    <li class="nav-item active">
+                        <button data-page-id="home">
+                            <span class="breeze-icons">go-home</span>
+                            <span class="nav-label">Home</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-page-id="schedule">
+                            <span class="breeze-icons">view-time-schedule-edit</span>
+                            <span class="nav-label">Schedule</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-page-id="timelines">
+                            <span class="breeze-icons">timeline-use-zone-on</span>
+                            <span class="nav-label">Timelines</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-page-id="plugin-management">
+                            <span class="breeze-icons">plugins</span>
+                            <span class="nav-label">Plugins</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-page-id="preview">
+                            <span class="breeze-icons">view-presentation</span>
+                            <span class="nav-label">Preview</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-page-id="settings">
+                            <span class="breeze-icons">configure</span>
+                            <span class="nav-label">Settings</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button data-page-id="help">
+                            <span class="breeze-icons">help-contents</span>
+                            <span class="nav-label">Help</span>
+                        </button>
+                    </li>
+                    <sp></sp>
+                    <li class="user">
+                        <span class="breeze-icons">im-user</span>
+                        <span class="nav-label">root</span>
+                        <sp></sp>
+                        <button id="logout">
+                            <span class="breeze-icons">system-log-out</span>
+                        </button>
+                    </li>
+                </nav>
+            </aside>
+            <main class="page-content"></main>
+        </div>
+    </body>
+</html>

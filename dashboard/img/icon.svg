@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="JumPres.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.8646602"
+     inkscape:cx="65.159325"
+     inkscape:cy="75.348849"
+     inkscape:window-width="1280"
+     inkscape:window-height="734"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <defs
+     id="defs1" />
+  <g
+     id="g1"
+     transform="translate(7.11779)">
+    <path
+       id="rect2"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;enable-background:accumulate;stop-color:#000000;fill:#ffffff;fill-opacity:1"
+       d="M 35.765023 0 L 35.765023 0.15625 L -0.0006025 24 L -0.0006025 104 L 35.765023 127.84375 L 35.765023 128 L 35.934944 127.95703 L 35.999398 128 L 35.999398 127.93945 L 113.76502 108 L 113.76502 20 L 35.999398 0.060546875 L 35.999398 0 L 35.934944 0.04296875 L 35.765023 0 z M 42.659554 9.546875 L 110.34705 24.732422 L 110.34705 103.26758 L 42.659554 118.45312 L 42.659554 9.546875 z " />
+    <path
+       id="rect5"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.16162;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="rect5"
+       d="M 49.307991 18.566406 L 49.307991 41.283203 L 86.130257 44.835938 L 45.893929 97.869141 L 58.989632 111.41602 L 95.270882 58.646484 L 95.270882 100.56641 L 106.84901 98.333984 L 106.84901 46.833984 L 106.84901 29.666016 L 95.270882 27.433594 L 49.307991 18.566406 z " />
+  </g>
+</svg>

@@ -1,0 +1,144 @@
+@import url('fonts.css');
+* {
+    box-sizing: border-box;
+    position: relative;
+    --border-radius-base: 6px;
+    --border-radius-extended: 12px;
+    --border-radius-obese: 48px;
+    --border-radius-rounded: 9000px;
+}
+body {
+    margin: 0;
+    background: var(--pal-bg);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body.color-scheme-dark {
+    --pal-bg-dark: #1d1d1d;
+    --pal-bg: #2a2a2a;
+    --pal-bg-light: #3c3c3c;
+    --pal-fg-dark: #aeaeae;
+    --pal-fg: #e1e1e1;
+    --pal-fg-light: #ffffff;
+    --pal-accent: #85bdbd;
+}
+
+body.color-scheme-light {
+    --pal-bg-dark: #ffffff;
+    --pal-bg: #f4f4f4;
+    --pal-bg-light: #ececec;
+    --pal-fg-dark: #515151;
+    --pal-fg: #000000;
+    --pal-fg-light: #000000;
+    --pal-accent: #a9b329;
+}
+
+sp {
+    flex-grow: 1;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+aside.sidebar {
+    height: 100%;
+}
+
+nav {
+    width: 225px;
+    height: 100%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: var(--pal-bg-dark);
+    border-color: var(--pal-bg-light);
+    border-style: solid;
+    border-width: 0;
+}
+
+nav .logo {
+    height: 54px;
+    margin: 4px auto 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li.nav-item > button {
+    border-radius: var(--border-radius-base);
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: var(--pal-fg-dark);
+}
+
+nav li:not(.active) button:hover {
+    background-color: hwb(from var(--pal-fg) h w b / 0.1);
+}
+
+nav li:not(.active) button:active {
+    background-color: hwb(from var(--pal-fg) h w b / 0.2);
+}
+
+nav li.active button {
+    background-color: hwb(from var(--pal-accent) h w b / 0.2);
+    outline: 1px solid hwb(from var(--pal-accent) h w b / 0.6);
+    transition: outline .15s ease;
+    color: var(--pal-bg-light);
+}
+
+nav li.active button:hover {
+    outline: 1px solid hwb(from var(--pal-accent) h w b / 0.7);
+}
+
+nav li.active button:active {
+    outline: 1px solid var(--pal-accent);
+}
+
+nav li span.breeze-icons {
+    user-select: none;
+    font-size: 24px;
+}
+
+nav li.active span.breeze-icons {
+    color: var(--pal-accent);
+}
+
+nav li span.nav-label {
+    font-family: var(--font-sans-serif), monospace;
+    font-size: 12px;
+    margin-left: 4px;
+    color: var(--pal-fg-dark);
+}
+
+nav li.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--pal-fg-dark);
+    padding: 0 0 0 4px;
+}
+
+nav li.user button {
+    border-radius: var(--border-radius-obese);
+    background: transparent;
+    border: none;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--pal-fg-dark);
+}

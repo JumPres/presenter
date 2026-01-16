@@ -1,0 +1,11 @@
+# Packages and builds
+/node_modules/
+/package-lock.json
+/dist/
+
+# IDE folders
+/.idea/
+/.vscode/
+
+# MacOS file metadata
+._*
