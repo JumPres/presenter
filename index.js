@@ -12,5 +12,7 @@ const {app} = expressWs(express());
 const PORT = 45549;
 
 app.use(express.static(path.join(__dirname, 'webroot')));
+app.use('/dashboard', express.static(path.join(__dirname, 'dashboard')));
+
 app.listen(PORT, () => {console.log('Started JumPres Server')});
 electronInit.create(electron);
