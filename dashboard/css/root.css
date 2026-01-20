@@ -22,7 +22,7 @@ body.color-scheme-dark {
     --pal-fg-dark: #aeaeae;
     --pal-fg: #e1e1e1;
     --pal-fg-light: #ffffff;
-    --pal-accent: #85bdbd;
+    --pal-accent: #7fdddd;
 }
 
 body.color-scheme-light {
@@ -32,7 +32,11 @@ body.color-scheme-light {
     --pal-fg-dark: #515151;
     --pal-fg: #000000;
     --pal-fg-light: #000000;
-    --pal-accent: #a9b329;
+    --pal-accent: #7aafaf;
+}
+
+.breeze-icons {
+    color: var(--pal-fg);
 }
 
 sp {
@@ -94,15 +98,20 @@ nav li:not(.active) button:active {
 nav li.active button {
     background-color: hwb(from var(--pal-accent) h w b / 0.2);
     outline: 1px solid hwb(from var(--pal-accent) h w b / 0.6);
-    transition: outline .15s ease;
-    color: var(--pal-bg-light);
+    transition: outline .1s ease, background-color .1s ease;
+}
+
+nav li.active > button {
+    color: var(--pal-fg-light);
 }
 
 nav li.active button:hover {
+    background-color: hwb(from var(--pal-accent) h w b / 0.3);
     outline: 1px solid hwb(from var(--pal-accent) h w b / 0.7);
 }
 
 nav li.active button:active {
+    background-color: hwb(from var(--pal-accent) h w b / 0.4);
     outline: 1px solid var(--pal-accent);
 }
 
@@ -119,7 +128,6 @@ nav li span.nav-label {
     font-family: var(--font-sans-serif), monospace;
     font-size: 12px;
     margin-left: 4px;
-    color: var(--pal-fg-dark);
 }
 
 nav li.user {

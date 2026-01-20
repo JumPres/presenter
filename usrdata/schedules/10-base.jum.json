@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "type": "jumpres.schedule",
+    "version": "1"
+  },
+  "data": {
+    "schedule": [
+      {
+        "runtime": "smtwhfa 06:00:00 18:00:00",
+        "timeline": "10-sample"
+      }
+    ]
+  }
+}

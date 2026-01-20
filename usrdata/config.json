@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "type": "jumpres.config",
+    "version": "1"
+  },
+  "data": {
+    "active-schedule": "10-base",
+    "active-layout": "10-enhanced"
+  }
+}

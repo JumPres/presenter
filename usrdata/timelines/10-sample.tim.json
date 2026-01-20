@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "type": "jumpres.timeline",
+    "version": "1"
+  },
+  "data": {
+    "schedule": [
+      {
+        "type": "jumpres.image",
+        "runtime": "00:00:05",
+        "src": "10-sample.png"
+      },
+      {
+        "type": "jumpres.video",
+        "runtime": "00:00:05",
+        "src": "20-sample-video.mp4"
+      },
+      {
+        "type": "jumpres.video-ext",
+        "runtime": "00:00:05",
+        "src": "20-sample-video.mp4"
+      },
+      {
+        "type": "jumpres.web",
+        "runtime": "00:00:05",
+        "src": "https://cronus.ws4k.net/app/msgboard.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "type": "jumpres.layout",
+    "version": "1",
+    "name": "Enhanced",
+    "description": "Recreation of the 2013-2019 layout of The Weather Channel (default)"
+  },
+  "data": {
+    "components": [
+      {
+        "type": "jumpres.base",
+        "vector": {
+          "x": 0,
+          "y": 0,
+          "w": 1536,
+          "h": 864
+        }
+      },
+      {
+        "type": "jumpres.crawl",
+        "vector": {
+          "x": 0,
+          "y": 864,
+          "w": 1536,
+          "h": 48
+        }
+      },
+      {
+        "type": "jumpres.clock",
+        "vector": {
+          "x": 1536,
+          "y": 0,
+          "w": 384,
+          "h": 128
+        }
+      },
+      {
+        "type": "jumpres.upnext",
+        "vector": {
+          "x": 1536,
+          "y": 128,
+          "w": 384,
+          "h": 352
+        }
+      },
+      {
+        "type": "jumpres.sidebar",
+        "vector": {
+          "x": 1536,
+          "y": 480,
+          "w": 384,
+          "h": 384
+        }
+      },
+      {
+        "type": "jumpres.sidebar-extension",
+        "vector": {
+          "x": 1536,
+          "y": 864,
+          "w": 384,
+          "h": 216
+        }
+      }
+    ]
+  }
+}
