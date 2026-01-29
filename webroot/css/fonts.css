@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(../fonts/Noto-Sans-Variable.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(../fonts/Noto-Sans-Variable-Italic.ttf) format('ttf');
+}

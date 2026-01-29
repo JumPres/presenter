@@ -7,9 +7,15 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <!-- Stylesheets -->
         <link rel="stylesheet" href="css/root.css"/>
+        <link rel="stylesheet" href="css/transitions.css"/>
+        <link rel="stylesheet" href="css/alerts.css"/>
         <!-- Scripts -->
         <script src="js/index.js"></script>
         <script src="js/scaling.js"></script>
+        <script src="js/alerts.js"></script>
+        <script src="js/layout-loader.js"></script>
+        <script src="js/scheduler.js"></script>
+        <script src="js/loader.js"></script>
         <!-- External Resources -->
     </head>
     <body>
@@ -17,6 +23,17 @@
             <div class="main">
                 <div class="loader">
 
+                </div>
+                <div class="alerts">
+                    <div class="alert" transition="scale-in">
+                        <img class="alert-header-image" src="img/logo.svg" alt="JumPres"/>
+                        <span class="alert-text">Starting</span>
+                        <progress value="33" max="100"></progress>
+                        <ul>
+                            <li>Fetch User Resources</li>
+                            <li>Initialize Scheduler</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="app">
                     <div class="frame-bounds">

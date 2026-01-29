@@ -1,0 +1,47 @@
+.alerts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alert {
+    width: 520px;
+    height: auto;
+    max-height: 360px;
+    background-color: rgba(33, 33, 50, 0.8);
+    color: #fff;
+    border-radius: 24px;
+    border: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(5px);
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.alert-header-image {
+    width: 80%;
+}
+.alert progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 16px;
+}
+
+.alert progress::-webkit-progress-bar {
+    background-color: #fff;
+    border-radius: 12px;
+}
+.alert progress::-webkit-progress-value {
+    background:
+            linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 10%, transparent 100%),
+            linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0,0,0, .1) 66%, transparent 66%),
+            #f32f52;
+    border-radius: 12px;
+}

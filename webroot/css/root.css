@@ -1,3 +1,4 @@
+@import url('fonts.css');
 * {
     box-sizing: border-box;
     position: relative;
@@ -8,6 +9,8 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
 }
 .root {
     position: absolute;
@@ -31,8 +34,8 @@ body {
     height: 1080px;
     top: 0;
     left: 0;
-    background-image: url('../img/loading.svg');
+    /*background-image: url('../img/loading.svg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
